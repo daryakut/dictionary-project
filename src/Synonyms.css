@@ -1,11 +1,15 @@
-.Synonyms {
-  margin: 15px 0 0;
-  padding: 0;
+.synonyms-section {
+  text-align: center;
+  margin: 20px 0;
 }
 
-.Synonyms li {
-  font-size: 13px;
+.synonyms li {
   display: inline-block;
-  padding-right: 10px;
-  line-height: 1;
+  border: 1px solid #889eaf;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 16px;
+}
+.Synonyms section {
+  margin: 20px 0;
 }
