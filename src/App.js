@@ -1,6 +1,7 @@
 import "./App.css";
 import logo from "./logo.jpg";
 import Dictionary from "./Dictionary";
+import { SocialIcon } from "react-social-icons";
 
 function App() {
   return (
@@ -12,7 +13,13 @@ function App() {
         <Dictionary defaultKeyword="play" />
       </main>
       <footer className="App-footer">
-        <small>Coded by Daria</small>
+        <SocialIcon
+          url="https://github.com/daryakut/dictionary-project"
+          bgColor="#24292E"
+          target="_blank"
+          className="mr-4"
+          network="github"
+        />
       </footer>
     </div>
   );
