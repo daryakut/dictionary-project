@@ -1,5 +1,5 @@
 import "./App.css";
-import logo from "./logo.jpg";
+import logo5 from "./logo5.svg";
 import Dictionary from "./Dictionary";
 import { SocialIcon } from "react-social-icons";
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo img-fluid" alt="logo"></img>
+        <img src={logo5} className="App-logo img-fluid" alt="logo"></img>
       </header>
       <main>
         <Dictionary defaultKeyword="play" />

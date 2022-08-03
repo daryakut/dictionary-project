@@ -8,7 +8,7 @@ export default function Phonetic(props) {
     <div className="Phonetic">
       <div className="Phonetic-button" onClick={props.onClick}>
         <button type="button" class="btn btn-warning">
-          Listen
+          ▶️
         </button>
       </div>
       <span className="text"> {props.phonetic.text}</span>
